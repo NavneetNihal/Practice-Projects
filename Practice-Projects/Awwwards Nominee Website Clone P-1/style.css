@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "General Sans";
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    /* height: 100%; */
+}
+
+#minicircle{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    z-index: 9999;
+    border-radius: 50%;
+    background-color: #fff;
+}
+#main {
+    width: 100%;
+    background-color: black;
+}
+
+#hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: #fff;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 40px;
+    color: white;
+}
+
+#nav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+#heading {
+    margin: 30px;
+}
+
+#heading h1 {
+    margin-left: 30px;
+    opacity: .6;
+    line-height: 1;
+    font-size: 10vw;
+    text-transform: uppercase;
+}
+
+#heading #secondh1 {
+    margin-left: 130px;
+}
+
+.blocktext {
+    display:flex;
+    flex-direction: column;
+    align-items: end;
+    width: fit-content;
+}
+
+.blocktext h5 {
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+#chotiheadings {
+    display:flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 100px;
+    padding-right: 50px;
+}
+
+#chotiheadings h5 {
+    text-transform: uppercase;
+    margin-top: 4px;
+    font-size: 1vw;
+    text-align: right;
+}
+
+#herofooter {
+    padding: 0 2vw;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#herofooter a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#herofooter #iconset {
+    display: flex;
+    gap: 5px;
+}
+.circle{
+    color: black;
+    text-shadow: 0 0 1px black, 0 0 1px black;
+}
+
+#herofooter .circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    background-color: #888;
+    border-radius: 50%;
+}
+
+#second {
+    color: #fff;
+    padding-right: 10vw;
+    padding-left: 2vw;
+    padding-top: 150px;
+    background-color: black;
+    width: 100%;
+    height: 140vh;
+}
+
+.elem {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2vw 3vw;
+    padding-right: 0;
+    border-top: 1px solid #888;
+}
+
+.elem h1 {
+    text-transform: uppercase;
+    font-size: 8vw;
+    opacity: .7;
+}
+
+.elemlast {
+    width: 100%;
+    border-bottom: 1px solid #888;
+}
+
+.elem img {
+opacity: 0;
+pointer-events: none;
+height: 140%;
+z-index: 999;
+position: absolute;
+transform: translate(-50%, -50%);
+}
+
+#about {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10vw 5vw;
+    padding-left: 40vw;
+    width: 100%;
+    background-color: black;
+    gap: 25px;
+}
+
+#textabout {
+    width: 25rem;
+}
+
+#textabout h5 {
+    text-transform: uppercase;
+    opacity: .6;
+}
+
+#textabout p {
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+#about img {
+    width: 200px;
+}
+
+#textabout a {
+    border: 1px solid #fff;
+    padding: 8px 24px;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+#subscribe {
+    background-color: black;
+    color: #fff;
+    height: 100vh;
+    padding: 20px 30px;
+    padding-bottom: 7vw;
+}
+
+#subscribe h5 {
+    text-transform: uppercase;
+    opacity: .6;
+}
+
+#subscribe h3 {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 10px;
+}
+#footer{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    background-color: black;
+    color:#fff;
+
+}
+#footerleft{
+    display: flex;
+    gap:20px;
+}
+#footerright{
+    display:flex;
+    gap: 20px;
+}
+#footer a {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+}
+.bounding{
+    width: fit-content;
+    overflow:hidden;
+}
+.boundingelem {
+    transform: translateY(100%);
+}
